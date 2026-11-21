@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Proxy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Mi Proxy Web</h1>
+    <form id="search-form">
+      <input 
+        type="text" 
+        id="url-input" 
+        placeholder="Introduce una URL (ej: https://google.com)" 
+        autocomplete="off"
+        required
+      >
+      <button type="submit">Navegar</button>
+    </form>
+    <div id="status"></div>
+  </div>
+
+  <!-- Scripts de Ultraviolet -->
+  <script src="uv.config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
